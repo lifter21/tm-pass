@@ -1,0 +1,173 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport-local',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /home/vagrant/project/package.json
+5 warn package.json tas-man-passport@1.0.0 No description
+6 warn package.json tas-man-passport@1.0.0 No repository field.
+7 warn package.json tas-man-passport@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/body-parser/package.json
+9 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/express-form/package.json
+11 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/express-session/package.json
+12 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/mongoose/package.json
+13 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/passport/package.json
+14 verbose installManyTop reading scoped package data from /home/vagrant/project/node_modules/passport-local/package.json
+15 info package.json passport@0.3.2 No README data
+16 info package.json express-form@0.12.4 No license field.
+17 info package.json passport-local@1.0.0 No license field.
+18 verbose readDependencies loading dependencies from /home/vagrant/project/package.json
+19 verbose install passport-local is installed as 1.0.0
+20 silly cache add args [ 'passport-local', null ]
+21 verbose cache add spec passport-local
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'passport-local',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'passport-local',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: '*',
+22 silly cache add   type: 'range' }
+23 silly addNamed passport-local@*
+24 verbose addNamed "*" is a valid semver range for passport-local
+25 silly addNameRange { name: 'passport-local', range: '*', hasData: false }
+26 silly mapToRegistry name passport-local
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+30 verbose addNameRange registry:https://registry.npmjs.org/passport-local not in flight; fetching
+31 verbose request uri https://registry.npmjs.org/passport-local
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 8:07:13 AM
+34 verbose request id 016c347cd2215055
+35 verbose etag "7DN2POQUWPKIHVHPHGG5T1TP8"
+36 http request GET https://registry.npmjs.org/passport-local
+37 http 304 https://registry.npmjs.org/passport-local
+38 verbose headers { date: 'Thu, 17 Dec 2015 08:07:13 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   etag: '"7DN2POQUWPKIHVHPHGG5T1TP8"',
+38 verbose headers   age: '222',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-ams4142-AMS',
+38 verbose headers   'x-cache': 'HIT',
+38 verbose headers   'x-cache-hits': '2',
+38 verbose headers   'x-timer': 'S1450339633.416795,VS0,VE0',
+38 verbose headers   vary: 'Accept' }
+39 silly get cb [ 304,
+39 silly get   { date: 'Thu, 17 Dec 2015 08:07:13 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     etag: '"7DN2POQUWPKIHVHPHGG5T1TP8"',
+39 silly get     age: '222',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-ams4142-AMS',
+39 silly get     'x-cache': 'HIT',
+39 silly get     'x-cache-hits': '2',
+39 silly get     'x-timer': 'S1450339633.416795,VS0,VE0',
+39 silly get     vary: 'Accept' } ]
+40 verbose etag https://registry.npmjs.org/passport-local from cache
+41 verbose get saving passport-local to /home/vagrant/.npm/registry.npmjs.org/passport-local/.cache.json
+42 silly addNameRange number 2 { name: 'passport-local', range: '*', hasData: true }
+43 silly addNameRange versions [ 'passport-local',
+43 silly addNameRange   [ '0.1.0',
+43 silly addNameRange     '0.1.1',
+43 silly addNameRange     '0.1.2',
+43 silly addNameRange     '0.1.3',
+43 silly addNameRange     '0.1.4',
+43 silly addNameRange     '0.1.5',
+43 silly addNameRange     '0.1.6',
+43 silly addNameRange     '1.0.0' ] ]
+44 silly addNamed passport-local@1.0.0
+45 verbose addNamed "1.0.0" is a plain semver version for passport-local
+46 silly cache afterAdd passport-local@1.0.0
+47 verbose afterAdd /home/vagrant/.npm/passport-local/1.0.0/package/package.json not in flight; writing
+48 verbose afterAdd /home/vagrant/.npm/passport-local/1.0.0/package/package.json written
+49 silly install resolved [ { name: 'passport-local',
+49 silly install resolved     version: '1.0.0',
+49 silly install resolved     description: 'Local username and password authentication strategy for Passport.',
+49 silly install resolved     keywords:
+49 silly install resolved      [ 'passport',
+49 silly install resolved        'local',
+49 silly install resolved        'auth',
+49 silly install resolved        'authn',
+49 silly install resolved        'authentication',
+49 silly install resolved        'username',
+49 silly install resolved        'password' ],
+49 silly install resolved     author:
+49 silly install resolved      { name: 'Jared Hanson',
+49 silly install resolved        email: 'jaredhanson@gmail.com',
+49 silly install resolved        url: 'http://www.jaredhanson.net/' },
+49 silly install resolved     repository:
+49 silly install resolved      { type: 'git',
+49 silly install resolved        url: 'git://github.com/jaredhanson/passport-local.git' },
+49 silly install resolved     bugs: { url: 'http://github.com/jaredhanson/passport-local/issues' },
+49 silly install resolved     licenses: [ [Object] ],
+49 silly install resolved     main: './lib',
+49 silly install resolved     dependencies: { 'passport-strategy': '1.x.x' },
+49 silly install resolved     devDependencies:
+49 silly install resolved      { mocha: '1.x.x',
+49 silly install resolved        chai: '1.x.x',
+49 silly install resolved        'chai-passport-strategy': '0.1.x' },
+49 silly install resolved     engines: { node: '>= 0.4.0' },
+49 silly install resolved     scripts: { test: 'mocha --reporter spec --require test/bootstrap/node test/*.test.js' },
+49 silly install resolved     _id: 'passport-local@1.0.0',
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: '1fe63268c92e75606626437e3b906662c15ba6ee',
+49 silly install resolved        tarball: 'http://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz' },
+49 silly install resolved     _from: 'passport-local@*',
+49 silly install resolved     _npmVersion: '1.2.25',
+49 silly install resolved     _npmUser: { name: 'jaredhanson', email: 'jaredhanson@gmail.com' },
+49 silly install resolved     maintainers: [ [Object] ],
+49 silly install resolved     directories: {},
+49 silly install resolved     _shasum: '1fe63268c92e75606626437e3b906662c15ba6ee',
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+49 silly install resolved     readme: 'ERROR: No README data found!',
+49 silly install resolved     homepage: 'https://github.com/jaredhanson/passport-local#readme' } ]
+50 info install passport-local@1.0.0 into /home/vagrant/project
+51 info installOne passport-local@1.0.0
+52 verbose installOne of passport-local to /home/vagrant/project not in flight; installing
+53 verbose lock using /home/vagrant/.npm/_locks/passport-local-6e1b5683cff534b0.lock for /home/vagrant/project/node_modules/passport-local
+54 silly install write writing passport-local 1.0.0 to /home/vagrant/project/node_modules/passport-local
+55 verbose unbuild node_modules/passport-local
+56 info preuninstall passport-local@1.0.0
+57 info uninstall passport-local@1.0.0
+58 verbose unbuild rmStuff passport-local@1.0.0 from /home/vagrant/project/node_modules
+59 info postuninstall passport-local@1.0.0
+60 silly gentlyRm /home/vagrant/project/node_modules/passport-local is being purged from base /home/vagrant/project
+61 verbose gentlyRm don't care about contents; nuking /home/vagrant/project/node_modules/passport-local
+62 silly vacuum-fs purging /home/vagrant/project/node_modules/passport-local
+63 verbose unlock done using /home/vagrant/.npm/_locks/passport-local-6e1b5683cff534b0.lock for /home/vagrant/project/node_modules/passport-local
+64 verbose stack Error: EIO: i/o error, rmdir '/home/vagrant/project/node_modules/passport-local'
+64 verbose stack     at Error (native)
+65 verbose cwd /home/vagrant/project
+66 error Linux 3.13.0-68-generic
+67 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "passport-local" "--save"
+68 error node v4.2.3
+69 error npm  v2.14.7
+70 error path /home/vagrant/project/node_modules/passport-local
+71 error code EIO
+72 error errno -5
+73 error syscall rmdir
+74 error EIO: i/o error, rmdir '/home/vagrant/project/node_modules/passport-local'
+75 error If you need help, you may report this error at:
+75 error     <https://github.com/npm/npm/issues>
+76 verbose exit [ -5, true ]
+77 verbose unbuild node_modules/passport-local
+78 info preuninstall passport-local@1.0.0
+79 info uninstall passport-local@1.0.0
+80 verbose unbuild rmStuff passport-local@1.0.0 from /home/vagrant/project/node_modules
+81 info postuninstall passport-local@1.0.0
+82 silly gentlyRm /home/vagrant/project/node_modules/passport-local is being purged from base /home/vagrant/project
+83 verbose gentlyRm don't care about contents; nuking /home/vagrant/project/node_modules/passport-local
+84 silly vacuum-fs purging /home/vagrant/project/node_modules/passport-local
+85 error error rolling back Error: EIO: i/o error, rmdir '/home/vagrant/project/node_modules/passport-local'
+85 error error rolling back     at Error (native)
+85 error error rolling back  { [Error: EIO: i/o error, rmdir '/home/vagrant/project/node_modules/passport-local']
+85 error error rolling back   errno: -5,
+85 error error rolling back   code: 'EIO',
+85 error error rolling back   syscall: 'rmdir',
+85 error error rolling back   path: '/home/vagrant/project/node_modules/passport-local' }
